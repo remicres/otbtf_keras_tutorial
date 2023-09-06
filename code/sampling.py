@@ -19,7 +19,7 @@ pyotb.PatchesSelection({
 })
 
 import os
-os.environ["OTBT_TF_NSOURCES"] = "3"
+os.environ["OTB_TF_NSOURCES"] = "3"
 
 p_img =  ("/data/spot/PROD_SPOT7_001/VOL_SPOT7_001_A/IMG_SPOT7_P_001_A/"
           "DIM_SPOT7_P_201409171025192_ORT_1190912101.XML")
