@@ -28,18 +28,22 @@ without any pre-processing.
 
 ## Docker image
 
-Pull the latest **otbtf** image on dockerhub. Here is an example with version
-4.1.0, CPU flavored:
+Pull the latest **otbtf** image on dockerhub. 
+
+> **Note**
+> At least version 4.2.0 must be used
+
+Here is an example with version 4.2.0, CPU flavored:
 
 ```
-docker pull mdl4eo/otbtf:4.1.0-cpu
+docker pull mdl4eo/otbtf:4.2.0-cpu
 ```
 
 Then start a container and follow the tutorial inside it.
 Here we mount some local volume in `/data` as storage for the data.
 
 ```
-docker run -ti -v /some/local/pth:/data mdl4eo/otbtf:4.1.0-cpu
+docker run -ti -v /some/local/pth:/data mdl4eo/otbtf:4.2.0-cpu
 ```
 
 ## pyotb
