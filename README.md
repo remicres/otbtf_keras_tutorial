@@ -50,10 +50,9 @@ docker run -ti -v /some/local/pth:/data mdl4eo/otbtf:4.2.0-cpu
 
 Install [pyotb](https://github.com/orfeotoolbox/pyotb) >= 2.0.0 inside the 
 container.
-Since pyotb 2.0.0 is still in beta, do the following to install it:
 
 ```
-pip install pyotb==2.0.0-dev6
+pip install pyotb
 ```
 
 ## Data
